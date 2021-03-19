@@ -1,0 +1,38 @@
+h1{
+    color: #2A3132;
+    padding: 10px;
+    margin-left: 20px; 
+    font-style: oblique;
+}
+.header{
+    background-color: #762636;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: #90AFC5;
+}
+a:visited{
+    color: #a9b8c7;
+}
+img{
+    border:solid #181442;
+    border-radius: 50px;
+}
+.item{
+    background-color: #90AFC5;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.item:hover {
+    background-color: #82a6c0;
+}
+
+.item:hover img{
+    opacity: 0.75;
+    border-width: 10px;
+    background-color: #4c87b1;
+    transform:scale(1.2)
+}
